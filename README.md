@@ -11,15 +11,15 @@ Assumptions:
 
 ## Usages:
 ```
-echo '<Json string>'' | python3 mytest.py
+echo '<Json string>'' | python3 flatten_json.py
 ```
 
 ```
-cat ex.json | python3 mytest.py
+cat ex.json | python3 flatten_json.py
 ```
 
 ```
-python3 mytest.py
+python3 flatten_json.py
 <Json String>
 <EOF>
 ```
@@ -34,7 +34,7 @@ echo '{
 "d": 3,
 "e": "test"
 } }
-' | python3 mytest.py
+' | python3 flatten_json.py
 ```
 
 ### Output 
@@ -45,7 +45,7 @@ echo '{
 ## Example 2
 ### Command line
 
-    cat ex.json | python3 mytest.py
+    cat ex.json | python3 flatten_json.py
 
 
 ### ex.json
